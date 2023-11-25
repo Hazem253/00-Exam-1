@@ -136,7 +136,7 @@
                   aria-valuemax="100"
                 >
                   <div
-                    class="progress-bar justify-content-between align-items-center flex-row px-2 bg-black"
+                    class="wow progress-animate progress-bar justify-content-between align-items-center flex-row px-2 bg-black"
                     style="width: 95%"
                   >
                     <span> web design </span>
@@ -152,7 +152,7 @@
                   aria-valuemax="100"
                 >
                   <div
-                    class="progress-bar justify-content-between align-items-center flex-row px-2 bg-black"
+                    class="wow progress-animate progress-bar justify-content-between align-items-center flex-row px-2 bg-black"
                     style="width: 80%"
                   >
                     <span> branding </span>
@@ -168,8 +168,8 @@
                   aria-valuemax="100"
                 >
                   <div
-                    class="progress-bar justify-content-between align-items-center flex-row px-2 bg-black"
-                    style="width: 90%"
+                    class="wow progress-animate progress-bar justify-content-between align-items-center flex-row px-2 bg-black wow"
+                    style="width: 90%;"
                   >
                     <span> Development </span>
                     <span> 90% </span>
@@ -879,8 +879,13 @@
     </footer>
 
 
+    <script src="js/wow.min.js"></script>
+    <script>
+    new WOW().init();
+    </script>
 
     <script src="js/bootstrap.bundle.min.js"></script>
+
     <script>
         var myDiv = document.getElementById('loading-screen');
         setTimeout(function() {
